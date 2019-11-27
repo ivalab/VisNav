@@ -6,10 +6,24 @@
     <description>Recent content on VisNav Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivalab.github.io/VisNav/public/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PiPS: Planning in Perception Space</title>
+      <link>https://ivalab.github.io/VisNav/public/research/initial/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/initial/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Explores the use of perception-space, e.g., a visual
+representation space, for collision checking during navigation through
+an unknown environment.  Employing the Marr&amp;rsquo;s concept of the 2.5D
+representation, the collision checking approach speeds up the time to
+collision-checking to permit low latency or real-time navigation on
+limited compute hardware, as well as high performance hardware.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>IVALab BioLocomotion Robots</title>

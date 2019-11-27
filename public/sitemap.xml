@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ivalab.github.io/VisNav/public/robots/</loc>
-    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+    <loc>https://ivalab.github.io/VisNav/public/research/initial/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/research/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ivalab.github.io/VisNav/public/</loc>
+    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/robots/</loc>
     <lastmod>2019-11-26T00:00:00+00:00</lastmod>
   </url>
   
