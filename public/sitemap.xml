@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/robots/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/</loc>
+    <lastmod>2019-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/tags/</loc>
+  </url>
+  
+</urlset>

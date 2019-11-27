@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VisNav Research</title>
+    <link>https://ivalab.github.io/VisNav/public/</link>
+    <description>Recent content on VisNav Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivalab.github.io/VisNav/public/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IVALab BioLocomotion Robots</title>
+      <link>https://ivalab.github.io/VisNav/public/robots/</link>
+      <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/robots/</guid>
+      <description>Our main robot for performing initial proof-of-concept runs using actual hardware is the Turtlebot. It is, perhaps, one of the more widely deployed wheeled, autonomous robot configurations around today, for indoor scenarios. Think of the Knightscope robot, Fetch, &amp;hellip;, though Boston Dynamics is making an effort to change that (as is Anybotics). To test out different hardware configurations, we have several that are instrumented in different ways. With stereo cameras, with depth sensors, with different compute platforms, from an Odroid Xu4, an Jetson TX2, and an Intel Celeron laptop, to an Intel i7 6th generation laptop.</description>
+    </item>
+    
+  </channel>
+</rss>
