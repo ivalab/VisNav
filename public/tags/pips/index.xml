@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PiPS on VisNav Research</title>
+    <link>https://ivalab.github.io/VisNav/public/tags/pips/</link>
+    <description>Recent content in PiPS on VisNav Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivalab.github.io/VisNav/public/tags/pips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>egoTEB: Ego-centric Timed Elastic Bands</title>
+      <link>https://ivalab.github.io/VisNav/public/research/egoteb/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/egoteb/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our second attempt at integrating the PiPS concept with
+a local-global navigation scheme.  This time we used Timed Elastic
+Bands (TEB) as the base local planner. Modifying TEB using our
+egocentric approach leads to egoTEB.
+A world, grid-based approach has a computational cost that scales with
+the area of the local grid, whereas the egocircle approach scales with
+the boundaries.  Thus rather than scale quadratically, it scales
+linearly with regards to the sensing footprint.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ego-centric Navigation: the egocircle</title>
+      <link>https://ivalab.github.io/VisNav/public/research/egocircle/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/egocircle/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our first attempt at integrating the PiPS concept with
+a local-global navigation scheme.  It modified the DWA planner in the
+ROS Move Base package.  The procedure required defining the &lt;em&gt;egocircle&lt;/em&gt;
+representation and using it as a body-frame collision and cost-map
+reference for planning. Both PiPS and the egocircle lead to linear
+scaling in sensor throughput and collision checking, which is confirmed
+through computational profiling and compared to other collision
+checking methods.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PiPS: Planning in Perception Space</title>
+      <link>https://ivalab.github.io/VisNav/public/research/pips/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/pips/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Explores the use of perception-space, e.g., a visual
+representation space, for collision checking during navigation through
+an unknown environment.  Employing the Marr&#39;s concept of the 2.5D
+representation, the collision checking approach speeds up the time to
+collision-checking to permit low latency or real-time navigation on
+limited compute hardware, as well as high performance hardware.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

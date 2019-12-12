@@ -6,32 +6,91 @@
     <description>Recent content on VisNav Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivalab.github.io/VisNav/public/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>PiPS: Planning in Perception Space</title>
-      <link>https://ivalab.github.io/VisNav/public/research/initial/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Stixel Navigation Part 2</title>
+      <link>https://ivalab.github.io/VisNav/public/research/stixel2/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ivalab.github.io/VisNav/public/research/initial/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Explores the use of perception-space, e.g., a visual
-representation space, for collision checking during navigation through
-an unknown environment.  Employing the Marr&amp;rsquo;s concept of the 2.5D
-representation, the collision checking approach speeds up the time to
-collision-checking to permit low latency or real-time navigation on
-limited compute hardware, as well as high performance hardware.&lt;/p&gt;</description>
+      <guid>https://ivalab.github.io/VisNav/public/research/stixel2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our second attempt at using stixels for navigation and
+exploring its computational properties. This time we integrate with
+our &lt;em&gt;egocircle&lt;/em&gt; representation and explore two different approaches to
+realizing local-global navigation. Computational scaling and
+navigation benchmark tests indicate that stixel navigation can be used
+across a variety of onboard computing platforms for mobile robots.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>IVALab BioLocomotion Robots</title>
+      <title>egoTEB: Ego-centric Timed Elastic Bands</title>
+      <link>https://ivalab.github.io/VisNav/public/research/egoteb/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/egoteb/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our second attempt at integrating the PiPS concept with
+a local-global navigation scheme.  This time we used Timed Elastic
+Bands (TEB) as the base local planner. Modifying TEB using our
+egocentric approach leads to egoTEB.
+A world, grid-based approach has a computational cost that scales with
+the area of the local grid, whereas the egocircle approach scales with
+the boundaries.  Thus rather than scale quadratically, it scales
+linearly with regards to the sensing footprint.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>IVALab VisNav Robots</title>
       <link>https://ivalab.github.io/VisNav/public/robots/</link>
       <pubDate>Tue, 26 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ivalab.github.io/VisNav/public/robots/</guid>
       <description>Our main robot for performing initial proof-of-concept runs using actual hardware is the Turtlebot. It is, perhaps, one of the more widely deployed wheeled, autonomous robot configurations around today, for indoor scenarios. Think of the Knightscope robot, Fetch, &amp;hellip;, though Boston Dynamics is making an effort to change that (as is Anybotics). To test out different hardware configurations, we have several that are instrumented in different ways. With stereo cameras, with depth sensors, with different compute platforms, from an Odroid Xu4, an Jetson TX2, and an Intel Celeron laptop, to an Intel i7 6th generation laptop.</description>
+    </item>
+    
+    <item>
+      <title>Ego-centric Navigation: the egocircle</title>
+      <link>https://ivalab.github.io/VisNav/public/research/egocircle/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/egocircle/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our first attempt at integrating the PiPS concept with
+a local-global navigation scheme.  It modified the DWA planner in the
+ROS Move Base package.  The procedure required defining the &lt;em&gt;egocircle&lt;/em&gt;
+representation and using it as a body-frame collision and cost-map
+reference for planning. Both PiPS and the egocircle lead to linear
+scaling in sensor throughput and collision checking, which is confirmed
+through computational profiling and compared to other collision
+checking methods.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stixel Navigation</title>
+      <link>https://ivalab.github.io/VisNav/public/research/stixel/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/stixel/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Stixels are an intermediate stereo representation for the
+world. The basic version models the world as sticks rising from the
+ground plane, which makes it a potentially lossy representation
+(overhanging or floating obstacles might be missed). As an intermediate
+representation, it can be used for ego-centric navigation.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PiPS: Planning in Perception Space</title>
+      <link>https://ivalab.github.io/VisNav/public/research/pips/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/pips/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Explores the use of perception-space, e.g., a visual
+representation space, for collision checking during navigation through
+an unknown environment.  Employing the Marr&#39;s concept of the 2.5D
+representation, the collision checking approach speeds up the time to
+collision-checking to permit low latency or real-time navigation on
+limited compute hardware, as well as high performance hardware.&lt;/p&gt;</description>
     </item>
     
   </channel>

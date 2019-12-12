@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://ivalab.github.io/VisNav/public/css/owl.theme.css">
 
 
-  <link href="https://ivalab.github.io/VisNav/public/css/style.sea.css" rel="stylesheet" id="theme-stylesheet">
+  <link href="https://ivalab.github.io/VisNav/public/css/style.ivalab.css" rel="stylesheet" id="theme-stylesheet">
 
  
 
@@ -67,6 +67,10 @@
   
   
   
+  <a href="https://twitter.com/IVALab5" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
   
   
   
@@ -90,7 +94,17 @@
 </p>
 
 
-    <div class="support">
+  Select by Tags:<BR>
+  
+    <a href="https://ivalab.github.io/VisNav/public/tags/pips/"
+    style="padding:0px 5px 0px 5px">PiPS</a>
+  
+    <a href="https://ivalab.github.io/VisNav/public/tags/stixel/"
+    style="padding:0px 5px 0px 5px">Stixel</a>
+  
+  <a href="https://ivalab.github.io/VisNav/public" style="padding:0px 5px 0px 5px">All</a>
+
+    <div class="support" style="padding-top:15px">
       <p class="credit">
         
           Research supported in part by National Science Foundation.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. 
@@ -99,7 +113,11 @@
       <p class="support">
         <p class="credit">
       
-        <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1849333&amp;HistoricalAwards=false">NSF &#35;1849333 </a><BR>
+        
+          
+            <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1849333&amp;HistoricalAwards=false">NSF &#35;1849333 </a><BR>
+          
+        
       
         </p>
       </p>
@@ -114,42 +132,138 @@
       </p>
     </div>
   </div>
+
 </div>
 
               
   <div class="col-xs-12 col-sm-8 col-md-9 content-column">
-    <div class="small-navbar visible-xs">
+  <div class="small-navbar visible-xs">
   <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
   <h1 class="small-navbar-heading"><a href="https://ivalab.github.io/VisNav/public">VisNav Research</a></h1>
 </div>
 
     <div class="grid">
-        <div class="row">
-          
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
-                      
-                      
-                      <div class="box-masonry-text">
-                      
-                          <h4><a href="https://ivalab.github.io/VisNav/public/research/initial/">PiPS: Planning in Perception Space</a></h4>
-                          <div class="box-masonry-description">
-                            <p>
-                                
-                                  <p><strong>Abstract:</strong> Explores the use of perception-space, e.g., a visual
+      <div class="row">
+        
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+            <div class="box-masonry">
+              
+              
+                <div class="box-masonry-text">
+              
+                  <h4><a href="https://ivalab.github.io/VisNav/public/research/stixel2/">Stixel Navigation Part 2</a></h4>
+                  <div class="box-masonry-description">
+                    <p>
+                    
+                      <p><strong>Abstract:</strong> Our second attempt at using stixels for navigation and
+exploring its computational properties. This time we integrate with
+our <em>egocircle</em> representation and explore two different approaches to
+realizing local-global navigation. Computational scaling and
+navigation benchmark tests indicate that stixel navigation can be used
+across a variety of onboard computing platforms for mobile robots.</p>
+                    
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+            <div class="box-masonry">
+              
+              
+                <div class="box-masonry-text">
+              
+                  <h4><a href="https://ivalab.github.io/VisNav/public/research/egoteb/">egoTEB: Ego-centric Timed Elastic Bands</a></h4>
+                  <div class="box-masonry-description">
+                    <p>
+                    
+                      <p><strong>Abstract:</strong> Our second attempt at integrating the PiPS concept with
+a local-global navigation scheme.  This time we used Timed Elastic
+Bands (TEB) as the base local planner. Modifying TEB using our
+egocentric approach leads to egoTEB.
+A world, grid-based approach has a computational cost that scales with
+the area of the local grid, whereas the egocircle approach scales with
+the boundaries.  Thus rather than scale quadratically, it scales
+linearly with regards to the sensing footprint.</p>
+                    
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+            <div class="box-masonry">
+              
+              
+                <div class="box-masonry-text">
+              
+                  <h4><a href="https://ivalab.github.io/VisNav/public/research/egocircle/">Ego-centric Navigation: the egocircle</a></h4>
+                  <div class="box-masonry-description">
+                    <p>
+                    
+                      <p><strong>Abstract:</strong> Our first attempt at integrating the PiPS concept with
+a local-global navigation scheme.  It modified the DWA planner in the
+ROS Move Base package.  The procedure required defining the <em>egocircle</em>
+representation and using it as a body-frame collision and cost-map
+reference for planning. Both PiPS and the egocircle lead to linear
+scaling in sensor throughput and collision checking, which is confirmed
+through computational profiling and compared to other collision
+checking methods.</p>
+                    
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+            <div class="box-masonry">
+              
+              
+                <div class="box-masonry-text">
+              
+                  <h4><a href="https://ivalab.github.io/VisNav/public/research/stixel/">Stixel Navigation</a></h4>
+                  <div class="box-masonry-description">
+                    <p>
+                    
+                      <p><strong>Abstract:</strong> Stixels are an intermediate stereo representation for the
+world. The basic version models the world as sticks rising from the
+ground plane, which makes it a potentially lossy representation
+(overhanging or floating obstacles might be missed). As an intermediate
+representation, it can be used for ego-centric navigation.</p>
+                    
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
+            <div class="box-masonry">
+              
+              
+                <div class="box-masonry-text">
+              
+                  <h4><a href="https://ivalab.github.io/VisNav/public/research/pips/">PiPS: Planning in Perception Space</a></h4>
+                  <div class="box-masonry-description">
+                    <p>
+                    
+                      <p><strong>Abstract:</strong> Explores the use of perception-space, e.g., a visual
 representation space, for collision checking during navigation through
-an unknown environment.  Employing the Marr&rsquo;s concept of the 2.5D
+an unknown environment.  Employing the Marr's concept of the 2.5D
 representation, the collision checking approach speeds up the time to
 collision-checking to permit low latency or real-time navigation on
 limited compute hardware, as well as high performance hardware.</p>
-                                
-                            </p>
-                          </div>
-                      </div>
+                    
+                    </p>
                   </div>
-              </div>
-          
-        </div>
+                </div>
+            </div>
+          </div>
+        
+      </div>
     </div>
 </div>
 

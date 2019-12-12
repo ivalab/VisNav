@@ -3,18 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ivalab.github.io/VisNav/public/research/initial/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <loc>https://ivalab.github.io/VisNav/public/research/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ivalab.github.io/VisNav/public/research/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <loc>https://ivalab.github.io/VisNav/public/tags/stixel/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/research/stixel2/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/tags/</loc>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ivalab.github.io/VisNav/public/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/research/egoteb/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/tags/pips/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,15 +43,22 @@
   </url>
   
   <url>
-    <loc>https://ivalab.github.io/VisNav/public/categories/</loc>
+    <loc>https://ivalab.github.io/VisNav/public/research/egocircle/</loc>
+    <lastmod>2019-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/research/stixel/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivalab.github.io/VisNav/public/research/pips/</loc>
+    <lastmod>2017-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ivalab.github.io/VisNav/public/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ivalab.github.io/VisNav/public/tags/</loc>
   </url>
   
 </urlset>

@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="https://ivalab.github.io/VisNav/public/css/owl.theme.css">
 
 
-  <link href="https://ivalab.github.io/VisNav/public/css/style.sea.css" rel="stylesheet" id="theme-stylesheet">
+  <link href="https://ivalab.github.io/VisNav/public/css/style.ivalab.css" rel="stylesheet" id="theme-stylesheet">
 
  
 
@@ -67,6 +67,10 @@
   
   
   
+  <a href="https://twitter.com/IVALab5" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
   
   
   
@@ -90,7 +94,17 @@
 </p>
 
 
-    <div class="support">
+  Select by Tags:<BR>
+  
+    <a href="https://ivalab.github.io/VisNav/public/tags/pips/"
+    style="padding:0px 5px 0px 5px">PiPS</a>
+  
+    <a href="https://ivalab.github.io/VisNav/public/tags/stixel/"
+    style="padding:0px 5px 0px 5px">Stixel</a>
+  
+  <a href="https://ivalab.github.io/VisNav/public" style="padding:0px 5px 0px 5px">All</a>
+
+    <div class="support" style="padding-top:15px">
       <p class="credit">
         
           Research supported in part by National Science Foundation.  Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation. 
@@ -99,7 +113,11 @@
       <p class="support">
         <p class="credit">
       
-        <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1849333&amp;HistoricalAwards=false">NSF &#35;1849333 </a><BR>
+        
+          
+            <a target="_blank" href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1849333&amp;HistoricalAwards=false">NSF &#35;1849333 </a><BR>
+          
+        
       
         </p>
       </p>
@@ -114,6 +132,7 @@
       </p>
     </div>
   </div>
+
 </div>
 
               
@@ -127,9 +146,7 @@
     <div class="col-lg-8">
       <div class="content-column-content">
          <h1>IVALab Vision-Based Navigation Research</h1>
-         
-
-<p>Our research is inspired by earlier work on <em>controlled active vision</em>,
+         <p>Our research is inspired by earlier work on <em>controlled active vision</em>,
 which examines the role of visual sensors in the feedback loop and
 investigates how to design visual algorithms whose closed-loop
 performance can be made to reproduce the properties of ideal feedback
@@ -146,7 +163,6 @@ we take into consideration the real-time demands of the visual
 algorithm. Doing so requires balancing numerical methods and algorithmic
 implementation against solution complexity.  High performance is
 meaningless if the algorithm cannot be implemented in real-time.</p>
-
 <p>Here, we focus this perspective on the problem of collision-free
 navigation through an unknown and uncontrolled space.  Most traditional
 pipelines live at two extremes. On one side, there is sufficient
@@ -161,19 +177,23 @@ access do not scale up to higher sensor throughputs. Our aim is to
 establish a navigation algorithm with deterministic properties that can
 be tuned based on the platform characteristics, or whose abilities can
 be predicted based on the platform characteristics.</p>
-
 <p>At the heart of this lies a <em>perception-space</em> approach to computation.
 Rather than employ optimized but poorly-scaled data structures, and
 rather than brute force the conversion of the data into a globally
 consistent reference frame, we advocate for minimally processing the
 sensory data and mapping the collision-avoidance problem from a spatial,
-world representation to a visual, perceptual representation.  Don&rsquo;t map
-the data to the robot&rsquo;s physical domain, but map the physical robot into
-the sensor&rsquo;s egocentric domain. We call this egocentric approach
-<em>Planning in Perception Space</em> or <em>PiPS</em>.</p>
-
+world representation to a visual, perceptual representation.  Don't map
+the data to the robot's physical domain, but map the physical robot into
+the sensor's egocentric domain. We call this egocentric approach
+<em>Planning in Perception Space</em> or <em>PiPS</em>, and have just begun to
+explore the benefits of such an intermediate representation for
+generating computationally scalable navigation algorithms. Longer term,
+we aim to also explore how these local methods can more robustly
+integrate with global methods and exploit the multiple time-scales that
+the different modules should operate at with regards to data
+assimilation, solution rate, and other high-level navigation
+meta-decisions.</p>
 <h3 id="investigators-involved">Investigators Involved</h3>
-
 <ul>
 <li><a href="http://pvela.gatech.edu">Patricio A. Vela</a></li>
 <li>Justin S. Smith (graduate)</li>
@@ -181,9 +201,7 @@ the sensor&rsquo;s egocentric domain. We call this egocentric approach
 <li>Fanzhe Lyu (undergraduate)</li>
 <li>Ruoyang Xu (undergraduate)</li>
 </ul>
-
 <h3 id="former-investigators">Former Investigators</h3>
-
 <ul>
 <li>Jin Ha Hwang</li>
 </ul>

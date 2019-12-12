@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stixel on VisNav Research</title>
+    <link>https://ivalab.github.io/VisNav/public/tags/stixel/</link>
+    <description>Recent content in Stixel on VisNav Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivalab.github.io/VisNav/public/tags/stixel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stixel Navigation Part 2</title>
+      <link>https://ivalab.github.io/VisNav/public/research/stixel2/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/stixel2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Our second attempt at using stixels for navigation and
+exploring its computational properties. This time we integrate with
+our &lt;em&gt;egocircle&lt;/em&gt; representation and explore two different approaches to
+realizing local-global navigation. Computational scaling and
+navigation benchmark tests indicate that stixel navigation can be used
+across a variety of onboard computing platforms for mobile robots.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Stixel Navigation</title>
+      <link>https://ivalab.github.io/VisNav/public/research/stixel/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivalab.github.io/VisNav/public/research/stixel/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Stixels are an intermediate stereo representation for the
+world. The basic version models the world as sticks rising from the
+ground plane, which makes it a potentially lossy representation
+(overhanging or floating obstacles might be missed). As an intermediate
+representation, it can be used for ego-centric navigation.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
