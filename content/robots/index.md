@@ -1,6 +1,6 @@
 +++
 date  = "2019-11-26"
-title = "IVALab BioLocomotion Robots"
+title = "IVALab VisNav Robots"
 +++
 
 Our main robot for performing initial proof-of-concept runs using actual
@@ -31,6 +31,10 @@ We are also working on building several other wheeled robots, more in
 the RC car vein and other types of commonly used wheeled vehicles.
 Eventually, you will be able to see what our robots have achieved on this 
 [YouTube Channel](https://www.youtube.com/channel/UC-YbwwjK5GE1YjVolgNe5Kg/).
+
+
+Lastly, these algorithms are designed with all of our 
+[bio-inspired robots](https://ivalab.github.io/BioLoco) in mind.
 
 
 [1]: /VisNav/public/imgs/robots/turtlebot.png

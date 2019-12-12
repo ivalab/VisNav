@@ -1,6 +1,7 @@
 baseurl = "https://ivalab.github.io/VisNav/public"
 baseURL = "https://ivalab.github.io/VisNav/public"
 title = "VisNav Research"
+Title = "VisNav Research"
 theme = "hugo-creative-portfolio-theme"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
@@ -8,7 +9,7 @@ disqusShortname = ""
 googleAnalytics = ""
 
 [params]
-  style = "sea"
+  style = "ivalab"
   title = "IVALab:VisNav"
   description = "Research efforts related to vision-in-the-loop navigation." 
   copyright = ""
@@ -40,3 +41,7 @@ googleAnalytics = ""
   github  = "https://github.com/ivalab"
   github2  = "https://github.com/ivaROS"
   youtube = "https://www.youtube.com/channel/UC-YbwwjK5GE1YjVolgNe5Kg/"
+  twitter = "https://twitter.com/IVALab5"
+
+[taxonomies]
+  tags = "tags"

@@ -43,7 +43,15 @@ sensory data and mapping the collision-avoidance problem from a spatial,
 world representation to a visual, perceptual representation.  Don't map
 the data to the robot's physical domain, but map the physical robot into
 the sensor's egocentric domain. We call this egocentric approach
-_Planning in Perception Space_ or _PiPS_.
+_Planning in Perception Space_ or _PiPS_, and have just begun to
+explore the benefits of such an intermediate representation for
+generating computationally scalable navigation algorithms. Longer term,
+we aim to also explore how these local methods can more robustly
+integrate with global methods and exploit the multiple time-scales that
+the different modules should operate at with regards to data
+assimilation, solution rate, and other high-level navigation
+meta-decisions.
+
 
 
 ### Investigators Involved
